@@ -1,0 +1,80 @@
+{
+  "steady_start_s": 6,
+  "joints": {
+    "L_hip": {
+      "imu_rmse_deg": 1.2897212270243745,
+      "imu_max_abs_deg": 1.7519149141150572,
+      "gyro_joint_velocity_rmse_deg_s": 0.12075303735783552,
+      "tracking_rmse_deg": 3.381154291227375,
+      "human_exo_rmse_deg": 0.4031495530072689,
+      "dominant_frequency_hz": 0.6662965019433646,
+      "ROM_deg": 58.77117011165426
+    },
+    "L_knee": {
+      "imu_rmse_deg": 3.3956237607552606,
+      "imu_max_abs_deg": 5.233000565967376,
+      "gyro_joint_velocity_rmse_deg_s": 0.11253994854530332,
+      "tracking_rmse_deg": 1.3562267427036732,
+      "human_exo_rmse_deg": 0.8166435572601113,
+      "dominant_frequency_hz": 0.6662965019433646,
+      "ROM_deg": 74.99214608017805
+    },
+    "R_hip": {
+      "imu_rmse_deg": 1.373565200904835,
+      "imu_max_abs_deg": 1.7813015503299472,
+      "gyro_joint_velocity_rmse_deg_s": 0.11639661251511658,
+      "tracking_rmse_deg": 3.380486655920955,
+      "human_exo_rmse_deg": 0.4013438970918304,
+      "dominant_frequency_hz": 0.6662965019433646,
+      "ROM_deg": 58.77084999696564
+    },
+    "R_knee": {
+      "imu_rmse_deg": 3.2997654851700395,
+      "imu_max_abs_deg": 5.170060601373012,
+      "gyro_joint_velocity_rmse_deg_s": 0.1119379375768359,
+      "tracking_rmse_deg": 1.358295449714865,
+      "human_exo_rmse_deg": 0.8111919786003764,
+      "dominant_frequency_hz": 0.6662965019433646,
+      "ROM_deg": 74.99203658607479
+    }
+  },
+  "imus": {
+    "pelvis": {
+      "tilt_rmse_deg": 0.04036492745605985,
+      "dominant_gyro_frequency_hz": null
+    },
+    "L_thigh": {
+      "tilt_rmse_deg": 1.3174263879783865,
+      "dominant_gyro_frequency_hz": 0.6662965019433646
+    },
+    "L_shank": {
+      "tilt_rmse_deg": 4.695812502220819,
+      "dominant_gyro_frequency_hz": 0.6662965019433646
+    },
+    "R_thigh": {
+      "tilt_rmse_deg": 1.4022253050254865,
+      "dominant_gyro_frequency_hz": 0.6662965019433646
+    },
+    "R_shank": {
+      "tilt_rmse_deg": 4.671879600901445,
+      "dominant_gyro_frequency_hz": 0.6662965019433646
+    }
+  },
+  "max_exo_active_torque_Nm": 0.0,
+  "max_strap_force_N": 12.061961238508344,
+  "max_strap_displacement_m": 0.00462154235518963,
+  "max_human_torque_Nm": 81.3052128624814,
+  "ideal_noise": false,
+  "mujoco_version": "3.16.0",
+  "physics_steps": 24000,
+  "sensor_samples": 2401,
+  "warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}
