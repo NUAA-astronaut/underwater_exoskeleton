@@ -1,0 +1,104 @@
+{
+  "mode": "G0",
+  "base_config": {
+    "height_m": 1.75,
+    "human_mass_kg": 70.0,
+    "timestep_s": 0.001,
+    "sensor_hz": 100,
+    "duration_s": 24.0,
+    "frequency_hz": 0.67,
+    "strap_stiffness_N_m": 2500.0,
+    "strap_damping_Ns_m": 45.0,
+    "human_kp_Nm_rad": 250.0,
+    "human_kd_Nms_rad": 25.0,
+    "human_torque_limit_Nm": 150.0,
+    "exo_joint_damping_Nms_rad": 0.08,
+    "exo_joint_friction_Nm": 0.05,
+    "exo_armature_kgm2": 0.001,
+    "motor_mass_kg": 0.335,
+    "thigh_rail_mass_kg": 0.35,
+    "shank_rail_mass_kg": 0.25,
+    "fin_mass_kg_each": 0.5,
+    "strap_fraction": 0.7,
+    "gyro_noise_std_deg_s": 0.08,
+    "gyro_bias_std_deg_s": 0.15,
+    "accel_noise_std_m_s2": 0.025,
+    "tilt_correction_gain_s_inv": 0.3,
+    "seed": 42,
+    "mount_y_deg": [
+      0,
+      7,
+      -5,
+      -6,
+      4
+    ]
+  },
+  "assistance_config": {
+    "parameter_status": "ENGINEERING_PLACEHOLDERS_NOT_DM_J6006_2EC_SPECIFICATIONS; identify experimentally before hardware use",
+    "motor": {
+      "torque_limit_Nm": 3.0,
+      "slew_limit_Nm_s": 20.0,
+      "response_time_s": 0.03
+    },
+    "assistance": {
+      "amplitude_Nm": 2.0,
+      "start_s": 4.0,
+      "ramp_s": 1.0,
+      "phase_offset_rad": 0.0
+    },
+    "g1": {
+      "frequency_hz": 0.67,
+      "phase_epoch_s": 2.0,
+      "left_phase_rad": 0.0,
+      "right_phase_rad": 3.141592653589793
+    },
+    "phase": {
+      "center_deg": 25.0,
+      "scale_frequency_hz": 0.67,
+      "history_s": 1.5,
+      "min_history_samples": 30,
+      "min_motion_range_deg": 10.0
+    },
+    "human": {
+      "feedforward_Nm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dynamics_compensation_scale": 1.0,
+      "adaptation": "none"
+    },
+    "evaluation": {
+      "steady_start_s": 6.0
+    }
+  },
+  "ideal_noise": false,
+  "human_and_reference_hash": "00fd23e6da23ce5d40ac1ce0871d0bcd9b587b14f4e0592d8a6e6e938a950b20",
+  "initial_qpos": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_qvel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "model_sha256": "a7ee661f4ff8485e3da30f6fa421b1a14ec6604352e57b7ea6036eeff0c5f6bf",
+  "legacy_sources_sha256": {
+    "simulate.py": "c852c19f6dfdf5a1c875e51c170e4ec3829cffa5561787d7e2d2ccabe980d84e",
+    "config.json": "9ff97ff5769ae9b97a2a5f5f0336af1df986c99aba49a193638c20459a31dde9",
+    "validate.py": "0aa4fa5df848662f2dff730069fd4b30b1d52f01db58b9338337abb7a1e07d65"
+  }
+}

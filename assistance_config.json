@@ -1,0 +1,9 @@
+{
+  "parameter_status": "ENGINEERING_PLACEHOLDERS_NOT_DM_J6006_2EC_SPECIFICATIONS; identify experimentally before hardware use",
+  "motor": {"torque_limit_Nm": 3.0, "slew_limit_Nm_s": 20.0, "response_time_s": 0.03},
+  "assistance": {"amplitude_Nm": 2.0, "start_s": 4.0, "ramp_s": 1.0, "phase_offset_rad": 0.0},
+  "g1": {"frequency_hz": 0.67, "phase_epoch_s": 2.0, "left_phase_rad": 0.0, "right_phase_rad": 3.141592653589793},
+  "phase": {"center_deg": 25.0, "scale_frequency_hz": 0.67, "history_s": 1.5, "min_history_samples": 30, "min_motion_range_deg": 10.0},
+  "human": {"feedforward_Nm": [0.0, 0.0, 0.0, 0.0], "dynamics_compensation_scale": 1.0, "adaptation": "none"},
+  "evaluation": {"steady_start_s": 6.0}
+}
