@@ -1,0 +1,151 @@
+{
+  "evaluation_start_s": 6.0,
+  "evaluation_duration_s": 18.0,
+  "integration": "physics-rate left endpoint; positive work per joint before summation",
+  "proxy_warning": "Net ideal joint-actuator burden, NOT metabolic cost or underwater propulsion efficiency",
+  "joints": {
+    "L_hip": {
+      "human_active_rms_Nm": 49.50756068279405,
+      "human_positive_work_J": 720.005533865104,
+      "human_net_work_J": 269.3166547138533,
+      "exo_net_work_J": 0.0,
+      "exo_positive_work_J": 0.0,
+      "exo_negative_work_J": 0.0,
+      "tracking_rmse_deg": 3.7006381848617296,
+      "tracking_max_abs_deg": 6.82888156088698,
+      "human_exo_rmse_deg": 0.40018643359199174,
+      "imu_rmse_deg": 0.6444253342572596,
+      "human_saturation_fraction": 0.0,
+      "max_exo_actual_Nm": 0.0,
+      "human_component_rms_Nm": {
+        "feedforward": 0.0,
+        "p": 16.147080187715943,
+        "d": 7.393474552446026,
+        "feedback": 17.770013062926495,
+        "dynamics": 44.07204811639286,
+        "clipping": 0.0
+      },
+      "amplitude_saturation_fraction": 0.0,
+      "slew_limited_fraction": 0.0,
+      "max_abs_torque_rate_Nm_s": 0.0
+    },
+    "L_knee": {
+      "human_active_rms_Nm": 16.88718320180381,
+      "human_positive_work_J": 110.31835703771903,
+      "human_net_work_J": -241.19719638202665,
+      "exo_net_work_J": 0.0,
+      "exo_positive_work_J": 0.0,
+      "exo_negative_work_J": 0.0,
+      "tracking_rmse_deg": 1.4202205055039205,
+      "tracking_max_abs_deg": 2.577652856721488,
+      "human_exo_rmse_deg": 0.8022316087986644,
+      "imu_rmse_deg": 1.5971730896726406,
+      "human_saturation_fraction": 0.0,
+      "max_exo_actual_Nm": 0.0,
+      "human_component_rms_Nm": {
+        "feedforward": 0.0,
+        "p": 6.196880981345417,
+        "d": 4.214443024099316,
+        "feedback": 7.557591477896852,
+        "dynamics": 14.775112610327211,
+        "clipping": 0.0
+      }
+    },
+    "R_hip": {
+      "human_active_rms_Nm": 49.315683612199166,
+      "human_positive_work_J": 706.6759092467261,
+      "human_net_work_J": 251.25766739844525,
+      "exo_net_work_J": 0.0,
+      "exo_positive_work_J": 0.0,
+      "exo_negative_work_J": 0.0,
+      "tracking_rmse_deg": 3.6800791214986037,
+      "tracking_max_abs_deg": 6.82836482607907,
+      "human_exo_rmse_deg": 0.39788095383117494,
+      "imu_rmse_deg": 0.6833333673566439,
+      "human_saturation_fraction": 0.0,
+      "max_exo_actual_Nm": 0.0,
+      "human_component_rms_Nm": {
+        "feedforward": 0.0,
+        "p": 16.05737435101277,
+        "d": 7.390077674112619,
+        "feedback": 17.704031473639134,
+        "dynamics": 44.08434079794549,
+        "clipping": 0.0
+      },
+      "amplitude_saturation_fraction": 0.0,
+      "slew_limited_fraction": 0.0,
+      "max_abs_torque_rate_Nm_s": 0.0
+    },
+    "R_knee": {
+      "human_active_rms_Nm": 16.787922760091746,
+      "human_positive_work_J": 110.610768050916,
+      "human_net_work_J": -235.57339032870834,
+      "exo_net_work_J": 0.0,
+      "exo_positive_work_J": 0.0,
+      "exo_negative_work_J": 0.0,
+      "tracking_rmse_deg": 1.4166101449559525,
+      "tracking_max_abs_deg": 2.57748402695671,
+      "human_exo_rmse_deg": 0.7961121338346879,
+      "imu_rmse_deg": 1.4519763274269972,
+      "human_saturation_fraction": 0.0,
+      "max_exo_actual_Nm": 0.0,
+      "human_component_rms_Nm": {
+        "feedforward": 0.0,
+        "p": 6.181127811658878,
+        "d": 4.22565208364583,
+        "feedback": 7.560898702855836,
+        "dynamics": 14.767154350507862,
+        "clipping": 0.0
+      }
+    }
+  },
+  "phase": {
+    "L": {
+      "valid_fraction": 1.0,
+      "imu_state_phase_rmse_deg": 1.039648380447382
+    },
+    "R": {
+      "valid_fraction": 1.0,
+      "imu_state_phase_rmse_deg": 1.1008632939584724
+    },
+    "bilateral_antiphase_rmse_deg": 7.649574082803489
+  },
+  "aggregate": {
+    "human_four_joint_rms_Nm": 73.82443038716353,
+    "human_hip_rms_Nm": 69.87871789678933,
+    "human_positive_work_J": 1647.610568200465,
+    "human_hip_positive_work_J": 1426.68144311183,
+    "exo_net_work_J": 0.0,
+    "tracking_rmse_deg": 2.7955999312666586,
+    "max_strap_force_N": 10.986674256836293,
+    "max_strap_displacement_m": 0.0041632323472299265
+  },
+  "base": {
+    "motion_is_hypothetical": true,
+    "net_work_J": 0.0,
+    "positive_work_J": 0.0,
+    "max_reaction_torque_Nm": 40.24409805949349,
+    "max_acceleration_residual": 9.975785725382112e-09
+  },
+  "segment_tilt_rmse_deg": {
+    "pelvis": 0.040364927348630154,
+    "L_thigh": 0.6726317533057531,
+    "L_shank": 2.252132187839087,
+    "R_thigh": 0.7116255620269029,
+    "R_shank": 2.1375188828627607
+  },
+  "mode": "G0",
+  "ideal_noise": false,
+  "warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "mujoco_version": "3.16.0",
+  "sensor_samples": 2401,
+  "physics_intervals": 24000
+}
